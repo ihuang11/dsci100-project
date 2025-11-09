@@ -1,4 +1,13 @@
-**Data Summary Description**
+<h1> Data Summary Description <h1></h1>
+
+The dataset consists of two files, players.csv and sessions.csv. 
+
+*"players.csv" Summary*
+
+The file "players.csv" contains demographic and behavioural information; there are seven variables that are "experience", "subscribe", "hashedEmail", "played_hours", "name", "gender", and "Age". Within this file, there are 196 observations and only the "Age" variable is missing two values. The key indentifier of each player is the "hashedEmail" variable, which is unique to each player. 
+
+
+
 
 Provide a full descriptive summary of the dataset, including information such as the number of observations, summary statistics (report values to 2 decimal places), number of variables, name and type of variables, what the variables mean, any issues you see in the data, any other potential issues related to things you cannot directly see, how the data were collected, etc. Make sure to use bullet point lists or tables to summarize the variables in an easy-to-understand format.
 
@@ -12,4 +21,4 @@ What player characteristics and behaviours are most predictive of subscribing to
 
 *Specific Question*
 
-Using measurements of  a player's engagement, such as their total playtime, average playing time, and experience, predict whether an experienced player (immediate players and expert players) is more likely to subscribe to the newsletter in comparsion to a beginner player?
+Using measurements of  a player's engagement, such as their total playtime, average playing time, and experience, is an experienced player (immediate players and expert players) more likely to subscribe to the newsletter in comparison to a beginner player?
