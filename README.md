@@ -1,24 +1,9 @@
 <h1> Data Summary Description <h1></h1>
 
-The dataset consists of two files, players.csv and sessions.csv. 
+This project will analyze two datasets,  `player.csv` and `sessions.csv` to answer two questions about the likelihood of subscription in a data science project about a Minecraft server. It explores how player characteristics and behaviour relate to newsletter subscription decisions in an online gaming context. The core research question is: 
 
-*"players.csv" Summary*
+Does newsletter subscription status differ significantly across experience levels (Beginner, Amateur, Regular, Veteran, Pro) when controlling for total playtime and average session duration?
 
-The file "players.csv" contains demographic and behavioural information; there are seven variables that are "experience", "subscribe", "hashedEmail", "played_hours", "name", "gender", and "Age". Within this file, there are 196 observations and only the "Age" variable is missing two values. The key indentifier of each player is the "hashedEmail" variable, which is unique to each player. 
+To answer this, the project uses a K-Nearest Neighbours (KNN) classification model, chosen for its suitability with binary classification tasks and its flexibility with non-linear relationships.
 
-
-
-
-Provide a full descriptive summary of the dataset, including information such as the number of observations, summary statistics (report values to 2 decimal places), number of variables, name and type of variables, what the variables mean, any issues you see in the data, any other potential issues related to things you cannot directly see, how the data were collected, etc. Make sure to use bullet point lists or tables to summarize the variables in an easy-to-understand format.
-
-Note that the selected dataset(s) will probably contain more variables than you need. In fact, exploring how the different variables in the dataset affect your model may be a crucial part of the project. You need to summarize the full data regardless of which variables you may choose to use later on.
-
-**Questions**
-
-*Broad Question*
-
-What player characteristics and behaviours are most predictive of subscribing to a game-related newsletter, and how do these features differ between various player types?
-
-*Specific Question*
-
-Using measurements of  a player's engagement, such as their total playtime, average playing time, and experience, is an experienced player (immediate players and expert players) more likely to subscribe to the newsletter in comparison to a beginner player?
+In my project proposal, I summarize the two datasets, pose my question, do minimal wrangling to explore the data, and create visualizations to better interpret the numbers. 
